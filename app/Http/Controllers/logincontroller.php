@@ -148,11 +148,11 @@ class logincontroller extends Controller
            {
             if(session()->has('LoggedUser')){
                 session()->pull('LoggedUser');
-                return redirect('/auth/login');
+                return redirect('/');
             }
             else
             {
-              return redirect('/auth/login');
+              return redirect('/');
             }
             
         }
