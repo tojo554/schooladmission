@@ -49,6 +49,11 @@ Route::post('/destroystudent/{id}',[admissioncontroller::class,'destroy']);
     Route::get('/delete/{id}/delete',[loginController::class,'deleteview']);
 
     
+
+
+
+    Route::get('/',[logincontroller::class,'index'])->name('index');
+
  
     route::group(['middleware'=>['AuthCheck']],function()
      {
@@ -58,12 +63,11 @@ Route::post('/destroystudent/{id}',[admissioncontroller::class,'destroy']);
     Route::get('/home',[admissioncontroller::class,'home'])->name('student.home');
     
       //template route
-    Route::get('/',[logincontroller::class,'index'])->name('index');
     Route::get('/about',[logincontroller::class,'about'])->name('about');
     Route::get('/contact',[logincontroller::class,'contact'])->name('contact');
     Route::get('/teacher',[logincontroller::class,'teacher'])->name('teacher');
     Route::get('/facilities',[logincontroller::class,'facilities'])->name('facilities');
-  Route::get('/student/admissionform',[admissioncontroller::class,'admissionform'])->name('student.admissionform');
+    Route::get('/student/admissionform',[admissioncontroller::class,'admissionform'])->name('student.admissionform');
 
 
     route::get('/auth/register',[loginController::class,'register'])->name('auth.register');
