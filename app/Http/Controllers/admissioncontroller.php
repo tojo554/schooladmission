@@ -116,7 +116,7 @@ class admissioncontroller extends Controller
           }
        function home()
     {
-        $data = ['LoggedUserInfo'=>admission::where('id','=',session('LoggedUser'))->first()];
+        $data = ['LoggedUserInfo'=>admission::where('email','=',session('LoggedUser'))->first()];
         return view('student.home',$data);
     }
 
