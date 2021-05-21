@@ -94,7 +94,7 @@ class admissioncontroller extends Controller
 
                     if (($request->password  == $request->email ))                           //&&($userInfo->email))
                     {
-                      $request->session()->put('LoggedUser',$userInfo->id);
+                      $request->session()->put('LoggedUser',$userInfo->email);
                       
                       return redirect('/home');                                             //change page
                     }

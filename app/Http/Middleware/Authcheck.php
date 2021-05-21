@@ -20,8 +20,8 @@ class Authcheck
     
     {
 
-        $userinfo=admission::where('id','=',session('LoggedUser'))->first();
-        $factinfo=Admin::where('id','=',session('LoggedUser'))->first();
+        $userinfo=admission::where('email','=',session('LoggedUser'))->first();
+        $factinfo=Admin::where('email','=',session('LoggedUser'))->first();
 
         if(session()->has('LoggedUser') )
         {

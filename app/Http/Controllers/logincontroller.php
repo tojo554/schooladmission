@@ -134,7 +134,7 @@ class logincontroller extends Controller
                   //check password
                   if(Hash::check($request->password, $userInfo->password))
                    {
-                   $request->session()->put('LoggedUser',$userInfo->id);
+                   $request->session()->put('LoggedUser',$userInfo->email);
                    return redirect('admin/dashboard');                                     //change
                    }
                  else
