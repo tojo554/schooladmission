@@ -62,10 +62,10 @@
                      <span class="text-danger">@error('qualification'){{ $message }} @enderror</span>
                 </div>
 
-                     <!-- <div class="form-group">
+                     <div class="form-group">
                         <label><b>PROFILE PHOTO</b></label>
                          <input type="file" value="{{$admin->facphoto}}" class="form-control" name="facphoto" >
-                    </div>                 -->
+                    </div>                
 
                     <br>
                     <button type="submit" class="btn btn-block btn-primary">update</button>

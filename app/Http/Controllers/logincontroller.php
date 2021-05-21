@@ -194,13 +194,13 @@ class logincontroller extends Controller
           //    $file->move(public_path('assets/project_img'),$extension);             $prod->pimage=$extension;         }
 
           // $admin->password=Hash::make($request->password);
-          // if($request->hasfile('facphoto')){
-          //   $file=$request->file('facphoto');
-          //   $extension=$file->getClientOriginalExtension();
-          //   // $filename=time() . '.' . $extension;
-          //   $file->move('uploads/facphotos/', $extension);
-          //   $admin->facphoto=$extension;
-          //     } 
+          if($request->hasfile('facphoto')){
+            $file=$request->file('facphoto');
+            $extension=$file->getClientOriginalExtension();
+            // $filename=time() . '.' . $extension;
+            $file->move('uploads/facphotos/', $extension);
+            $admin->facphoto=$extension;
+              } 
             
 
             $admin->save();
