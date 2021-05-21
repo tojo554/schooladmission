@@ -158,7 +158,7 @@ class logincontroller extends Controller
         }
 
           function dashboard(){
-              $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
+              $data = ['LoggedUserInfo'=>Admin::where('email','=',session('LoggedUser'))->first()];
               return view('admin.dashboard',$data);
             }
 
