@@ -56,8 +56,7 @@ Route::post('/destroystudent/{id}',[admissioncontroller::class,'destroy']);
 
  
     route::group(['middleware'=>['Authcheck']],function()
-     {
-
+    {
     route::get('/auth/login',[LoginController::class,'login'])->name('auth.login');
     Route::get('/student/slogin',[admissioncontroller::class,'slogin'])->name('student.slogin');
     Route::get('/home',[admissioncontroller::class,'home'])->name('student.home');
