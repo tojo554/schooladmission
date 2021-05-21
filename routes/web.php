@@ -55,7 +55,7 @@ Route::post('/destroystudent/{id}',[admissioncontroller::class,'destroy']);
     Route::get('/',[logincontroller::class,'index'])->name('index');
 
  
-    route::group(['middleware'=>['AuthCheck']],function()
+    route::group(['middleware'=>['Authcheck']],function()
      {
 
     route::get('/auth/login',[LoginController::class,'login'])->name('auth.login');
