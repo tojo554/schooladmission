@@ -39,12 +39,12 @@
 
                 @csrf
                 <table class="table table-borderless">
-                <!-- <tr>
+                 <tr>
                         <td><b>STUDENT NAME </b></td> 
                         <td><input value="{{ $admission ->name}}" name="name" type="text" class="form-control" placeholder="Enter the full name" > <span class="text-danger">@error('name'){{ $message }} @enderror</span></td>
                        
                  </tr>
-                 <tr>
+                 <!-- <tr>
                         <td><b>FATHER NAME </b></td>
                         <td><input value="{{ $admission ->fathername}}" name="fathername" type="text" class="form-control"placeholder="Enter the father name" >
                         <span class="text-danger">@error('fathername'){{ $message }} @enderror</span>
@@ -79,8 +79,8 @@
                    >
                     <span class="text-danger">@error('phoneno'){{ $message }} @enderror</span>
                     </td>
-                   
-                </tr>
+                    
+                </tr>-->
                 <tr>
                     <td><b>EMAIL ID </b></td>
                     <td><input value="{{ $admission ->email}}" name="email" type="text" class="form-control" placeholder="Enter the email address"
@@ -88,7 +88,7 @@
                     <span class="text-danger">@error('email'){{ $message }} @enderror</span>
                     </td>                   
                 </tr>
-            
+<!--             
                 <tr>
                     <td><b>DATE OF BIRTH </b></td>
                     <td><input value="{{ $admission ->dateofbirth}}" name="dateofbirth" type="date" class="form-control" placeholder="">
@@ -108,7 +108,7 @@
                       <td><b>GENDER</b></td>
                     <td>
                     <input value="{{ $admission ->gender}}" name="gender" type="text" class="form-control" placeholder="">
-                     </td>
+                     </td> 
 
                 </tr> -->
                 <tr>

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\admission;
+use App\Mail\SendMail;
+use Illuminate\Support\Facades\Mail;
 
 class admissioncontroller extends Controller
 {
@@ -132,21 +134,30 @@ class admissioncontroller extends Controller
          {
           $admission=admission::find($id);
 
-        //   $admission ->name =$request->name;
+             $admission ->name =$request->name;
         //   $admission ->fathername =$request->fathername;	
         //   $admission ->mothername =$request->mothername;
         //   $admission ->address =$request->address;
         //   $admission ->pincode =$request->pincode;
         //   $admission ->phoneno =$request->phoneno;
-        //   $admission ->email =$request->email;
+             $admission ->email =$request->email;
         //   $admission ->dateofbirth =$request->dateofbirth;
         //   $admission ->class =$request->class;
         //   $admission->gender =$request->gender;
              $admission ->status =$request->status;
   
-          $admission->save();
+             $admission->save();
+             
+             $admission=array(
+                'name'=> $request->name,
+                'email'=>$request->email,
+                'status' =>$request->status
+            );
+    
+            Mail::to($admission['email'])->send(new SendMail($admission));
+
   
-          return redirect('/admin/studentview');
+            return redirect('/admin/studentview');
           
          }
          function deleteview($id)
