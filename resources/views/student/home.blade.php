@@ -15,7 +15,7 @@
     <a class="navbar-brand" href="{{ route('student.logout') }}" >Logout</a>
     </div>
     </nav> 
-    <b>New Upadates:</b><marquee style="font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(80, 7, 237);" >Welcome    {{ $LoggedUserInfo['name'] }} to St. Berchmans School, Changanasserry, Check the mail to know about the admission details or Contact with School <br></marquee> </div>
+    <b>New Updates:</b><marquee style="font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(80, 7, 237);" >Welcome    {{ $LoggedUserInfo['name'] }} to St. Berchmans School, Changanasserry, Check the mail to know about the admission details or Contact with School <br></marquee> </div>
     <br><br>
     <body style="background-color:;"> 
          <div class="container">  

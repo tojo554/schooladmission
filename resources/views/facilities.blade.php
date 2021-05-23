@@ -156,17 +156,19 @@
 						</a>
 						<div class="desc">
 							<h3>Computer Lab</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus at facilis adipisci nam, facere ipsum repudiandae sapiente voluptatum pariatur atque ea cupiditate doloribus suscipit error molestiae ex similique, aspernatur neque.</p>
+							<p>Installed with 27 computers, multimedia under network environment, the lab has laser printer, scanner, LCD projector and is manned by three teachers and connected with the world </p>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-6 animate-box">
 					<div class="course">
 						<a href="/facilities" class="course-img" style="background-image: url(https://images.pexels.com/photos/761854/pexels-photo-761854.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);">
 						</a>
 						<div class="desc">
 							<h3>Canteen</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deserunt? Laboriosam hic, atque quis, et pariatur rerum ab quia omnis commodi esse nam ipsum sapiente ducimus, tempore culpa ex mollitia.</p>
+							<p>School canteens should serve food and drinks which are low in saturated fats, sugar, salt, and food dyes. More fruit, fruit juices, vegetables and whole grain bread should be on the menu. </p>
   							</div>
 					</div>
 				</div>
@@ -175,18 +177,20 @@
 						<a href="/facilities" class="course-img" style="background-image: url(https://images.pexels.com/photos/3825379/pexels-photo-3825379.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);">
 						</a>
 						<div class="desc">
-							<h3>Sciene Lab</h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3>Science Lab</h3>
+							<p>Installed with 27 computers, multimedia under network environment, the lab has laser printer, scanner, LCD projector and is manned by three teachers and connected with the world </p>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-6 animate-box">
 					<div class="course">
 						<a href="/facilities" class="course-img" style="background-image: url(https://images.pexels.com/photos/1227571/pexels-photo-1227571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
 						</a>
 						<div class="desc">
 							<h3>Swimming Trainind</h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<p>When we consider swimming as a competitive sport it regains another level of enthusiasm because of the versatility of the training programmes as well as competitions</p>
 						</div>
 					</div>
 				</div>
@@ -196,7 +200,7 @@
 						</a>
 						<div class="desc">
 							<h3>Digital Classroom</h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<p>We provide best classroom experience to students in digital way.Digital Classroom brings technology into the classroom the real world and helps to learn to become alive and real in time.</p>
 						</div>
 					</div>
 				</div>

@@ -276,28 +276,28 @@
 						<div class="owl-carousel owl-carousel-fullwidth">
 							<div class="item">
 								<div class="testimony-slide active text-center">
-									<div class="user" style="background-image: url(images/person1.jpg);"></div>
-									<span>Mary Walker<br><small>Students</small></span>
+									<div class="user" style="background-image: url(https://i.pinimg.com/736x/be/9b/07/be9b07dba3cb61d407b7d400eea6b866.jpg);"></div>
+									<span>Dulquer Salmaan<br><small>Students</small></span>
 									<blockquote>
-										<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;The courses offered at SB school meets international standards and are structured in the best possible way to benefit the students.&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
 							<div class="item">
 								<div class="testimony-slide active text-center">
-									<div class="user" style="background-image: url(images/person2.jpg);"></div>
-									<span>Mike Smith<br><small>Students</small></span>
+									<div class="user" style="background-image: url(https://www.fanfoot.org/wp-content/uploads/2020/08/35267/fahadh-faasil-wants-to-drive-uber-in-spain-post-his-retirement-who-would-like-to-board-this-ride.jpg);"></div>
+									<span>Fahadh Faasil<br><small>Students</small></span>
 									<blockquote>
-										<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;learning for many generations. It has moulded the destiny of hundreds of people for a better tomorrow.&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
 							<div class="item">
 								<div class="testimony-slide active text-center">
-									<div class="user" style="background-image: url(images/person3.jpg);"></div>
-									<span>Rita Jones<br><small>Teacher</small></span>
+									<div class="user" style="background-image: url(https://th.bing.com/th/id/OIP.uedB2JtWdviHC2WC0XdjgwHaHa?pid=ImgDet&w=900&h=900&rs=1);"></div>
+									<span>Sergio Marquina<br><small>professor</small></span>
 									<blockquote>
-										<p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;The school works hard to develop the spritual, moral, intellectual, physical and aesthetic powers of its students so that they may be good citizens&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>

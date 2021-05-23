@@ -37,15 +37,20 @@
 
 </head>
 <body>
-
+	<style type="text/css">
+@media print {
+    #hide {
+        display :  none;
+    }
+}
+</style>
     <nav class="navbar navbar-dark bg-dark">
     <div class="container-md">
-	<!-- <a class="navbar-brand" href="/admin/admindashboard" >Back</a> -->
-    <a class="navbar-brand" href="{{route('auth.logout')}}" >Logout</a>
+    <a class="navbar-brand" id="hide" href="{{route('auth.logout')}}" >Logout</a>
+	<button id="hide" class="btn btn-outline-primary" onclick="window.print()">Print</button>
     </div>
     </nav
-<div class="limiter">
-					
+  <div class="limiter">
 		<div class="container-table100">
 		<center><h2>Student Table</h2></center>
 			<div class="wrap-table100">
@@ -72,7 +77,7 @@
 						<tbody>
             
 						@foreach($admission as $userf)
-                 <tr class="row100">
+                               <tr class="row100">
 								<td class="column100 column1" data-column="column1">{{$userf->id}}</td>
 								<td class="column100 column2" data-column="column2">{{$userf->name}}</td>
 								<td class="column100 column3" data-column="column3">{{$userf->fathername}}</td>
@@ -84,9 +89,7 @@
 								<td class="column100 column9" data-column="column9">{{$userf->dateofbirth}}</td>
 								<td class="column100 column10" data-column="column10">{{$userf->class}}</td>
 								<td class="column100 column11" data-column="column11">{{$userf->gender}}</td>
-								<td class="column100 column12" data-column="column12">{{$userf->status}}</td>								
-
-
+								<td class="column100 column12" data-column="column12">{{$userf->status}}</td>
                                 <td class="column100 column13" data-column="column13"><a class="btn btn-warning" href="/editstudent/{{$userf->id}}/edit">  Edit  </a></td>
 								<td class="column100 column14" data-column="column14"><a class="btn btn-danger" href="/delete/{{$userf->id}}"  > Delete  </a></td>
                                 
