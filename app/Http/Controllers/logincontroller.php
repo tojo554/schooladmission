@@ -71,7 +71,7 @@ class logincontroller extends Controller
             'subject'=>'required',
             'phoneno'=>'required|min:10|max:10 |unique:admins',
             'qualification'=>'required',
-            'password'=>'required|min:5|max:12',
+            'password'=>'required|min:5',
             'facphoto'=>'required'
          ]);  
        
@@ -114,7 +114,7 @@ class logincontroller extends Controller
           //validate requests
           $request->validate([
                 'email'=>'required|email',
-                'password'=>'required|min:5|max:12'
+                'password'=>'required|min:5'
           ]);
               $userInfo = Admin::where('email','=',$request->email)->first();
 

@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\logincontroller;
 use App\Http\Controllers\admissioncontroller;
 
-Route::get('',function()
+Route::get('/sam',function()
 {
-    return view('welcome');
+    return view('/admin/sample');
 });
 
 
