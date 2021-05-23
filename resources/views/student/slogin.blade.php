@@ -15,9 +15,8 @@
     <a class="navbar-brand" href="{{ route('student.admissionform')}}" >New Application</a>
     </div>
     </nav>
-    
-<div class="bg-image"
-  style=" background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+ <div class="bg-image"
+  style=" background-image: url('https://images.pexels.com/photos/2835436/pexels-photo-2835436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     height: 100vh; width:  " >
 <div class="container">
         <div class="row">
@@ -57,7 +56,7 @@
              
         </div
    </div>
-
+</div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
    </body>
    </html>
