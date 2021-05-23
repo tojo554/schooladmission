@@ -47,14 +47,15 @@
                 <th>Name</th>
                 <th>Email</th>
                 <th></th>
-                <th></th>
+                <th><a href="/auth/logout"><button class="btn btn-danger">Logout</button></a></th>
             </thead>
             <tbody>
               <tr class="bg-light">
                 <td>{{ $LoggedUserInfo['name']  }}</td>
                 <td>{{ $LoggedUserInfo['email']  }}</td>
+                <td>     </td>
+                <td>  <img src="{{ asset('uploads/facphotos/'. $LoggedUserInfo->facphoto) }}" alt="" width="60" height="70"></td>
                 <td></td>
-                <td><a href="/auth/logout"><button class="btn btn-danger">Logout</button></a></td>
              </tr>
             </tbody>
             </table>
