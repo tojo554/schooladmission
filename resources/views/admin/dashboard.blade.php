@@ -50,7 +50,7 @@
                 <th>Name</th>
                 <th>Email</th>
                 <th></th>
-                <th><a href="/auth/logout"><button class="btn btn-danger">Logout</button></a></th>
+                <th><a href="{{route('auth.logout')}}"><button class="btn btn-danger">Logout</button></a></th>
             </thead>
             <tbody>
               <tr class="bg-light">
