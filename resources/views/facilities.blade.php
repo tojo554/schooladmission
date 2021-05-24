@@ -65,7 +65,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="site">www.sbschool.com</p>
+						<p class="site">sbschool11.herokuapp.com</p>
 						<p class="num">Call: +0481 2721869</p>
 					    	<ul class="fh5co-social">
 							<li><a href="/facilities"><i class="icon-facebook2"></i></a></li>
@@ -189,7 +189,7 @@
 						<a href="/facilities" class="course-img" style="background-image: url(https://images.pexels.com/photos/1227571/pexels-photo-1227571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
 						</a>
 						<div class="desc">
-							<h3>Swimming Trainind</h3>
+							<h3>Swimming Training</h3>
 							<p>When we consider swimming as a competitive sport it regains another level of enthusiasm because of the versatility of the training programmes as well as competitions</p>
 						</div>
 					</div>

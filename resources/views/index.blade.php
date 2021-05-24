@@ -9,19 +9,7 @@
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
+	
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -78,7 +66,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="site">www.sbschool.com</p>
+						<p class="site">sbschool11.herokuapp.com</p>
 						<p class="num">Call: +0481 2721869</p>
 					    	<ul class="fh5co-social">
 							<li><a href="/"><i class="icon-facebook2"></i></a></li>

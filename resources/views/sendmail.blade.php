@@ -12,7 +12,7 @@
     <p>
         Your Application status :{{$admission['status']}} 
     </p> 
-    <p><b>Username & password : is Your Email ID Itself</b></p>
+    <b><p>Username & password : is Your Email ID Itself</p></b>
     
     <p>If your Application status is "Approved" Interview date will be announced Soon </p>
 <p>In view of the current situation of our country due to COVID-19, it is decided to interview the candidate online for admissions  for the Academic Year 2020-21 through ZOOM CLOUD MEETING.</p>
@@ -24,9 +24,9 @@ You are requested to download and Install Zoom Client from https://zoom.us/downl
     
             <p>->Last year(2020-21) progress report <b>Before Interview</b></p>
             <p> ->Original Caste/Community Certificate plus attested copy of the same (applicable only in the case
-                of candidates belonging to reservation category). The certificate should have been obtained within six  months from the Tahsildar concerned.</p>
+                     of candidates belonging to reservation category). The certificate should have been obtained within six  months from the Tahsildar concerned.</p>
             <p> ->Medical Fitness Certificate – signed by a registered medical practitioner.
-          Affidavit by the Parent </p>
+                 Affidavit by the Parent </p>
             <p> ->Undertakings by the Parent </p>
             <p>->Passport Size Photographs</p>
         

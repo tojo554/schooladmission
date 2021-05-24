@@ -78,7 +78,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="site">www.sbschool.com</p>
+						<p class="site">sbschool11.herokuapp.com</p>
 						<p class="num">Call: +0481 2721869</p>
 					    	<ul class="fh5co-social">
 							<li><a href="/contact"><i class="icon-facebook2"></i></a></li>
@@ -150,8 +150,8 @@
 							<li class="address">St Berchmans Higher Secondary School,<br>   Changanassery - 686106 <br> 
 							Kerala, India.</li>
 							<li class="phone"><a href="tel://1234567920">0481 2421347</a></li>
-							<li class="email"><a href="mailto:tojolawrence@gmail.com">sbhss@sb.edu</a></li>
-							<li class="url"><a href="sbschool.com">sbschool.com</a></li>
+							<li class="email"><a href="mailto:tojolawrence@gmail.com">sbschool007@gmail.com</a></li>
+							<li class="url"><a href="sbschool.com">sbschool11.herokuapp.com/</a></li>
 						</ul>
 					</div>
 
@@ -162,7 +162,7 @@
 		</div>
 	</div>
 	<div class="map-box">   
-    <iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15742.521050681658!2d76.5471634!3d9.4537829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4139c72b27141b5!2sSt%20Berchmans%20Higher%20Secondary%20School!5e0!3m2!1sen!2sin!4v1598539786696!5m2!1sen!2sin" style="border: 0;" tabindex="0" width="1400"></iframe>
+    <iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15742.521050681658!2d76.5471634!3d9.4537829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4139c72b27141b5!2sSt%20Berchmans%20Higher%20Secondary%20School!5e0!3m2!1sen!2sin!4v1598539786696!5m2!1sen!2sin" style="border: 0;" tabindex="0" width="1700"></iframe>
       </div>
 
 

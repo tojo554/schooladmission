@@ -9,21 +9,7 @@
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
+	
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -78,7 +64,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="site">www.sbschool.com</p>
+						<p class="site">sbschool11.herokuapp.com</p>
 						<p class="num">Call: +0481 2721869</p>
 					    	<ul class="fh5co-social">
 							<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
@@ -146,11 +132,7 @@
 				<div class="col-md-3 text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://www.guidemytalent.com/images/services/career-counselling-jaipur.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3><a href="/teacher">Career guidance</a></h3>
@@ -162,11 +144,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://magoosh.com/praxis/files/2016/10/shutterstock_309241625.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3>Remedial Teaching</h3>
@@ -176,11 +154,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://www.gettingsmart.com/wp-content/uploads/2018/02/Teacher-with-Students-raising-their-hands-Feature-Image.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3>Mentoring</h3>
@@ -190,11 +164,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://filecabinet10.eschoolview.com/6AC3DBDC-7A92-434F-B392-A61E2E763669/MHS_MarchingBand_Football2019.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3><a href="/teacher">School Band</a></h3>
@@ -208,11 +178,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://www.oneindia.com/img/2018/09/ncc-1537523780.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3>NCC Army</h3>
@@ -222,11 +188,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://www.mgmudupi.ac.in/images/NCC5.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3>NCC Navy</h3>
@@ -238,11 +200,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://kasaragod.keralapolice.gov.in/media/images/stories/spc/spc2.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3>SPC</h3>
@@ -254,11 +212,7 @@
 				<div class="col-md-3 animate-box text-center">
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(https://5.imimg.com/data5/BD/YW/MY-23038015/scout-uniform-500x500.jpg);">
-							<ul class="fh5co-social">
-								<li><a href="/teacher"><i class="icon-facebook2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-twitter2"></i></a></li>
-								<li><a href="/teacher"><i class="icon-github"></i></a></li>
-							</ul>
+							
 						</div>
 						<span>Student Support</span>
 						<h3>Scout Cadette</h3>
