@@ -5,59 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Dashboard</title>
+    <title>Dashboard</title>
 </head>
-
+<body >
+    
 
 <nav class="navbar navbar-dark bg-dark">
-    <div class="container-md">
-    <a class="navbar-brand" href="/" >Home</a>
-    <a class="navbar-brand" href = "mailto: sbschool007@gmail.com">Send Email</a>
-    <a class="navbar-brand" href="{{ route('student.logout') }}" >Logout</a>
-    </div>
-    </nav> 
-    <b>New Updates:</b><marquee style="font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(80, 7, 237);" >Welcome    {{ $LoggedUserInfo['name'] }} to St. Berchmans School, Changanasserry, Check the mail to know about the admission details or Contact with School <br></marquee> </div>
-    <br><br>
-    <body style="background-color:;"> 
-         <div class="container">  
-            <div class="row">
-                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <h4><center><tr> <td>Welcome</td> <td>{{ $LoggedUserInfo['name'] }}</td>   </tr></center><h4><hr>
-                    <table class="table table-hover">
-                        <thead>
-                        
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th></th>
-                            <th>Application Status</th>
-                            <th><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyw551VPZXNStb2o_1PS7LJpIVrR-qbwqyDuBj6m4Xa3ePEE9DqQVB2_U9JsMoPKRrhHE&usqp=CAU" alt="" width="60" height="70"></th>
-                        </thead>
-                        <tbody>
-                            
-                            <tr>
-                                
-                                <td>{{ $LoggedUserInfo['name'] }}</td>
-                                <td>{{ $LoggedUserInfo ['email'] }}</td>
-                                <td></td>
-                                <td>{{ $LoggedUserInfo ['status'] }}</td>
-                            </tr> 
-                        </tbody>
-                    </table>
-                    <table>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                            <tr></tr>
-                            <tr>
-                                <td class="column100 column14" data-column="column14"><a class="btn btn-danger" href="{{ route('student.logout') }}"  > Logout  </a></td></td>
-                            </tr>
-                    </table>
-                    
-                    
-                </div>
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="mailto: sbschool007@gmail.com">Send Email</a>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href="{{ route('student.logout') }}">Logout</a>
+  </div>
+</nav>
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-light p-4">
+   <a href="/home"> <h5 class="text-dark h4">{{ $LoggedUserInfo['name']  }}</h5></a>
+    <span class="text-muted">{{ $LoggedUserInfo['email']  }}</span>
+  </div>
+</div>
+<b>New Updates:</b><marquee style="font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(80, 7, 237);" >Welcome    {{ $LoggedUserInfo['name'] }} to St. Berchmans School, Changanasserry, Check the mail to know about the admission details or Contact with School <br></marquee><br><br>
+
+<br>
+    <div class="container">
+        <div class="row">
+        <div class="col col-12 col-sm-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+        </div>
+        <br>
+             <div class="col col-12 col-sm-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+            
+
+            <table class="table table-hover">
+            <thead class="bg-success">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Application Status</th>   
+                <th><a href="{{ route('student.logout') }}"><button class="btn btn-danger">Logout</button></a></th>
+            </thead>
+            <tbody>
+              <tr class="bg-light">
+                <td>{{ $LoggedUserInfo['name']  }}</td>
+                <td>{{ $LoggedUserInfo['email']  }}</td>
+                <td>{{ $LoggedUserInfo ['status'] }}</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyw551VPZXNStb2o_1PS7LJpIVrR-qbwqyDuBj6m4Xa3ePEE9DqQVB2_U9JsMoPKRrhHE&usqp=CAU" alt="" width="60" height="70"></th></td>
+                <td></td>
+             </tr>
+            </tbody>
+            </table>
+            
+            <table class="table table-hover">
+            <!-- <tr>
+              <td></td>
+              <td></td>
+            </tr>
+              <td></td>
+              <td></td>
+            </tr> -->
+            </table>
             </div>
         </div>
+    </div>
+	</body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
 </html>
-
