@@ -53,7 +53,7 @@
                 <td>{{ $LoggedUserInfo['name']  }}</td>
                 <td>{{ $LoggedUserInfo['email']  }}</td>
                 <td>{{ $LoggedUserInfo ['status'] }}</td>
-                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyw551VPZXNStb2o_1PS7LJpIVrR-qbwqyDuBj6m4Xa3ePEE9DqQVB2_U9JsMoPKRrhHE&usqp=CAU" alt="" width="60" height="70"></th></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyw551VPZXNStb2o_1PS7LJpIVrR-qbwqyDuBj6m4Xa3ePEE9DqQVB2_U9JsMoPKRrhHE&usqp=CAU" alt="" width="50" height="60"></th></td>
                 <td></td>
              </tr>
             </tbody>
