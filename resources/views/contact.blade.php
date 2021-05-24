@@ -104,7 +104,7 @@
 							<li><a href="/about">About Us</a></li>
 							<li><a href="/contact">Contact Us</a></li>
 							<li class="has-dropdown">
-								<a href="">Login</a>
+								<a>Login</a>
 								<ul class="dropdown">
 									<li><a href="/student/slogin">Student Login</a></li>
 									<li><a href="/auth/login">Faculty Login</a></li>
