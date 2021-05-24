@@ -30,8 +30,11 @@
   <div class="bg-light p-4">
    <a href="/admin/dashboard"> <h5 class="text-dark h4">{{ $LoggedUserInfo['name']  }}</h5></a>
     <span class="text-muted">{{ $LoggedUserInfo['email']  }}</span>
+    <!-- <span><p id="date"></p><script>document.getElementById("date").innerHTML = Date(); </script></span> -->
   </div>
 </div>
+<marquee style="font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(80, 7, 237);" >Welcome    
+ {{ $LoggedUserInfo['name'] }} to St. Berchmans School, Changanasserry <br></marquee>
 
 <br>
     <div class="container">
@@ -59,7 +62,7 @@
              </tr>
             </tbody>
             </table>
-
+            
             <table class="table table-hover">
             <tr>
               <td>View all applications</td>

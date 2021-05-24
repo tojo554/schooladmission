@@ -46,14 +46,15 @@
                 <th>Name</th>
                 <th>Email</th>
                 <th></th>
-                <th></th>
+                <th><a href="{{route('auth.logout')}}"><button class="btn btn-danger">Logout</button></th>
             </thead>
             <tbody>
               <tr class="bg-light">
                 <td>admin</td>
                 <td>admin@gmail.com</td>
                 <td></td>
-                <td><a href="{{route('auth.logout')}}"><button class="btn btn-danger">Logout</button></a></td>
+                <td> <img src="https://cdn1.vectorstock.com/i/1000x1000/11/10/admin-icon-male-person-profile-avatar-with-gear-vector-25811110.jpg" alt="" width="60" height="70"></td>
+                <td></a></td>
              </tr>
             </tbody>
             </table>

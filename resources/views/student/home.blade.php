@@ -12,6 +12,7 @@
 <nav class="navbar navbar-dark bg-dark">
     <div class="container-md">
     <a class="navbar-brand" href="/" >Home</a>
+    <a class="navbar-brand" href = "mailto: sbschool007@gmail.com">Send Email</a>
     <a class="navbar-brand" href="{{ route('student.logout') }}" >Logout</a>
     </div>
     </nav> 
@@ -29,9 +30,12 @@
                             <th>Email</th>
                             <th></th>
                             <th>Application Status</th>
+                            <th><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyw551VPZXNStb2o_1PS7LJpIVrR-qbwqyDuBj6m4Xa3ePEE9DqQVB2_U9JsMoPKRrhHE&usqp=CAU" alt="" width="60" height="70"></th>
                         </thead>
                         <tbody>
+                            
                             <tr>
+                                
                                 <td>{{ $LoggedUserInfo['name'] }}</td>
                                 <td>{{ $LoggedUserInfo ['email'] }}</td>
                                 <td></td>
