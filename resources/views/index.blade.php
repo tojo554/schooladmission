@@ -126,8 +126,7 @@
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
 			   					<h1>The Roots of Education are Bitter, But the Fruit is Sweet</h1>
-									<h2><a href="/" target="_blank"></a></h2>
-									<p><a class="btn btn-primary btn-lg" href="/">Start Learning Now!</a></p>
+									<p><a class="btn btn-primary btn-lg" href="/student/admissionform">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -141,7 +140,7 @@
 			   				<div class="slider-text-inner">
 			   					<h1>"Education is the most powerful weapon which you can use to change the world."</h1>
 									<h2>Nelson Mandela</h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="/">Start Learning Now!</a></p>
+									<p><a class="btn btn-primary btn-lg btn-learn" href="/student/admissionform">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -154,8 +153,7 @@
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
 			   					<h1>We Help You to Learn New Things</h1>
-									<h2></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="/">Start Learning Now!</a></p>
+									<p><a class="btn btn-primary btn-lg btn-learn" href="/student/admissionform">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
