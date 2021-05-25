@@ -27,8 +27,8 @@
 </nav>
 <div class="collapse" id="navbarToggleExternalContent">
   <div class="bg-light p-4">
-   <a href="/admin/admindashboard"> <h5 class="text-dark h4">admin</h5></a>
-    <span class="text-muted">admin@gmail.com</span>
+   <a href="/admin/admindashboard"> <h5 id="hide"class="text-dark h4">admin</h5></a>
+    <span id="hide" class="text-muted">admin@gmail.com</span>
   </div>
 </div>
 
