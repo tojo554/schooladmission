@@ -70,6 +70,10 @@
               <td><a href="/admin/facultyview"><button class="btn btn-success">View</button></a></td>
             </tr>
             <tr>
+              <td>Add Faculty</td>
+              <td><a href="/auth/register"><button class="btn btn-success">View</button></a></td>
+            </tr>
+            <tr>
               <td>Edit Faculty</td>
               <td><a href="/admin/facultyview"><button class="btn btn-success">View</button></a></td>
             </tr>
