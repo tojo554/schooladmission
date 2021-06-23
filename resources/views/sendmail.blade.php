@@ -22,13 +22,13 @@ You are requested to download and Install Zoom Client from https://zoom.us/downl
 
 <p><b>Kindly attach this documents </b></p>
     
-            <p>->Last year(2020-21) progress report <b>Before Interview</b></p>
+            <p> ->Last year(2020-21) progress report <b>Before Interview</b></p>
             <p> ->Original Caste/Community Certificate plus attested copy of the same (applicable only in the case
                      of candidates belonging to reservation category). The certificate should have been obtained within six  months from the Tahsildar concerned.</p>
-            <p> ->Medical Fitness Certificate – signed by a registered medical practitioner.
-                 Affidavit by the Parent </p>
+            <p> ->Medical Fitness Certificate – signed by a registered medical practitioner. </p>
+            <p> ->Affidavit by the Parent </p>
             <p> ->Undertakings by the Parent </p>
-            <p>->Passport Size Photographs</p>
+            <p> ->Passport Size Photographs</p>
         
     
 <i>Note : Kindly acknowledge to this mail. If there is any inconvenience, please contact 7025422671 or mail to sbschool007@gmail.com and reschedule your interview.</i>
