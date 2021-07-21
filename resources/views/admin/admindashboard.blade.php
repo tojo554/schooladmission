@@ -73,14 +73,16 @@
               <td>Add Faculty</td>
               <td><a href="/auth/register"><button class="btn btn-success">Add</button></a></td>
             </tr>
-            <tr>
+            
+            <!-- <tr>
               <td>Edit Faculty</td>
               <td><a href="/admin/facultyview"><button class="btn btn-success">Edit</button></a></td>
             </tr>
             <tr>
               <td>Edit applications</td>
               <td><a href="/admin/studentview"><button class="btn btn-success">Edit</button></a></td>
-            </tr>
+            </tr> -->
+            
             </table>
             </div>
         </div>

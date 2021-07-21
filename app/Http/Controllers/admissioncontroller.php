@@ -42,7 +42,7 @@ class admissioncontroller extends Controller
             'fathername'=>'required',
             'mothername'=>'required',
             'address'=>'required',
-            'pincode'=>'required',
+            'pincode'=>'required|min:6|max:6',
             'phoneno'=>'required|min:10|max:10',
             'email'=>'required|email|unique:admissions',
             'dateofbirth'=>'required',
